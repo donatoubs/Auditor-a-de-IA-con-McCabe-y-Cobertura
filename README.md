@@ -89,21 +89,6 @@ docs/
 - El control de doble reserva está implementado a nivel de aplicación; para un entorno concurrente de producción se recomienda reforzarlo con restricciones transaccionales apropiadas.
 - Alpine.js se carga desde CDN, por lo que la interfaz requiere conexión a internet para cargar esa dependencia.
 
-## Publicar en GitHub
-
-Crea un repositorio vacío en https://github.com/new. Desde esta carpeta ejecuta:
-
-```bash
-git init
-git add .
-git commit -m "Implementar sistema de citas y auditoría QA"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/auditoria-ia-mccabe-cobertura.git
-git push -u origin main
-```
-
-Sustituye `TU_USUARIO` por tu usuario y la URL por la dirección real de tu repositorio. Si Git pide autenticación, sigue el flujo de inicio de sesión de GitHub. Nunca subas tokens, contraseñas ni archivos `.env`.
-
 ## Lista de entrega
 
 - [ ] La app inicia y permite reservar/cancelar citas.
